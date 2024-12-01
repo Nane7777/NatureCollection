@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "714405664535",
+    "project_id": "naturecollection-5dbbd",
+    "storage_bucket": "naturecollection-5dbbd.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:714405664535:android:3d1aae9abde2b947678952",
+        "android_client_info": {
+          "package_name": "be.nane.naturecollection"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmzdW3mJTIgln-SdnpOlm_6AfkpolEwQ4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
