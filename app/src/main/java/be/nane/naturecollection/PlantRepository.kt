@@ -11,7 +11,7 @@ class PlantRepository {
 
     object Singleton {
         // se connecter à la référence "plants"
-        val databaseRef = FirebaseDatabase.getInstance().getReference("Plants")
+        val databaseRef = FirebaseDatabase.getInstance().getReference("plants")
 
 
         // créer une liste qui va contenir nos plantes
@@ -44,5 +44,8 @@ class PlantRepository {
 
         })
     }
+
+    // mettre à jour un objet plante en bdd
+    fun updatePlant(plant: PlantModel) = databaseRef.child(plant.id).setValue(plant)
 
 }
